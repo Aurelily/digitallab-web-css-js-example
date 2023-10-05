@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5ec8d8;
+  height: 150px;
+}
+
+nav {
+  background-color: blue;
+  /* height: 80px; */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 30px;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  padding: 20px;
+}
+
+.box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  /* background-color: yellow; */
+  margin: 10px;
+  padding: 10px;
+}
+
+.menu li a {
+  color: white;
+}
+.menu li a:hover {
+  color: aqua;
+}
+
+/* SECTION 1 HERO */
+/* --------------------------------------------- */
+
+.section1 {
+  position: relative;
+  background-color: rgb(216, 255, 75);
+  height: 500px;
+  background-image: url("./images/nice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.slogan {
+  position: absolute;
+  top: 200px;
+  left: 170px;
+  font-family: "Playball", cursive;
+  font-size: 50px;
+  color: white;
+}
+
+.bouton {
+  position: absolute;
+  top: 250px;
+  left: 170px;
+  background-color: blue;
+  color: white;
+  width: 350px;
+  height: 80px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 0 0 50px 0;
+}
+.bouton:hover {
+
+  background-color: red;
+
+
+}
+
+/* SECTION 2 : Que faire à Nice */
+/* --------------------------------------------- */
+.section2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #86b7d6;
+  height: 500px;
+}
+
+.section2 img {
+  width: 500px;
+  border: 5px solid black;
+}
+
+.parent-contenu-s2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.parent-contenu-s2 div {
+  width: 50%;
+}
+
+/* SECTION 3*/
+/* --------------------------------------------- */
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(207, 207, 207);
+}
+
+.card {
+  width: 30%;
+  border: 1px dashed black;
+  padding: 10px;
+}
+.card img {
+  width: 100%;
+}
+
+.card a {
+  color: blue;
+  font-weight: bold;
+}
+.card a:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+.parent-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* SECTION 4*/
+/* --------------------------------------------- */
+.section4 {
+
+
+  background-color: #bfbfbf;
+}
+
+/* FOOTER*/
+/* --------------------------------------------- */
+footer {
+  background-color: #000;
+  color: white;
+  height: 150px;
+}

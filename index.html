@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Roboto+Slab:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ma page</title>
+  </head>
+  
+  <body>
+    <!-- HEADER -->
+    <header>
+      <img src="./images/logo.png"/>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+      <ul class="menu">
+        <li><a href="#monFooter">Go to Footer</a></li>
+        <li><a href="#">Living Nice</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">What to do in Nice ?</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>  
+
+
+    <main>
+    <!-- SECTION 1 : HERO -->
+      <section class="section1">
+        <p class="slogan">Welcome to NICE</p>
+        <a class="bouton box-center" href="#">Discover the city</a>
+      </section>
+
+
+    <!-- SECTION 2 : What to do in Nice ? -->
+      <section class="section2">
+        <h1>What to do in Nice ?</h1>
+        <div class="parent-contenu-s2">
+          <div>
+            <h2>Sub-title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto repellat tenetur cumque harum perferendis maiores quisquam iure quibusdam animi. Adipisci eaque dolores eos laboriosam placeat totam illo error aut.</p>
+          </div>
+          <img src="./images/rue.jpg" alt="Une rue">
+        </div>
+
+      </section>
+
+
+      <!-- SECTION 3 : NEWS -->
+      <section class="section3">
+        <h1>News</h1>
+        <div class="parent-cards">
+
+          <div class="card">
+            <img src="./images/rue.jpg" alt="rue"/>
+            <h3>Article title</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Read more</a>
+          </div>
+
+          <div class="card">
+            <img src="./images/rue.jpg" alt="rue"/>
+            <h3>Article title</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Read more</a>
+          </div>
+
+          <div class="card">
+            <img src="./images/rue.jpg" alt="rue"/>
+            <h3>Article title</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4 : CHARTS EXAMPLE -->
+      <section class="section4">
+        <h1>Charts example</h1>
+          <div class="parent-chart">
+            <canvas id="myChart"></canvas>
+          </div>
+      </section>
+    </main>
+    <footer class="box-center" id="monFooter">
+      <p>Site created by Aurélie PREAUD</p>
+    </footer>
+  </body>
+</html>
