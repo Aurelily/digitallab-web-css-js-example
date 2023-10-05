@@ -167,11 +167,12 @@ h3 {
 /* SECTION 4*/
 /* --------------------------------------------- */
 .section4 {
-
-
-  background-color: #bfbfbf;
+  background-color: #ffffff;
 }
 
+.parent-chart{
+  width: 50%;
+}
 /* FOOTER*/
 /* --------------------------------------------- */
 footer {
