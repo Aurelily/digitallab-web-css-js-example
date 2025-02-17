@@ -6,77 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script defer src="script2.js"></script>
+    <script defer src="script.js"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Roboto+Slab:wght@100;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Ma page</title>
   </head>
-  
+
   <body>
     <!-- HEADER -->
     <header>
-      <img src="./images/logo.png"/>
+      <!-- Logotype -->
+      <img src="./images/logo.png" />
+      <!-- Navigation -->
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Explore Nice</a></li>
+          <li><a href="#">Local news</a></li>
+          <li><a href="#">Events guide</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- NAVIGATION -->
-    <nav>
-      <ul class="menu">
-        <li><a href="#monFooter">Go to Footer</a></li>
-        <li><a href="#">Living Nice</a></li>
-        <li><a href="#">Culture</a></li>
-        <li><a href="#">What to do in Nice ?</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>  
-
-
     <main>
-    <!-- SECTION 1 : HERO -->
+      <!-- SECTION 1 : HERO -->
       <section class="section1">
-        <p class="slogan">Welcome to NICE</p>
-        <a class="bouton box-center" href="#">Discover the city</a>
+        <div class="cta">
+          <p class="slogan">Experience the Allure of Nice, France</p>
+          <a class="bouton box-center" href="#">Discover the city</a>
+        </div>
       </section>
 
-
-    <!-- SECTION 2 : What to do in Nice ? -->
+      <!-- SECTION 2  -->
       <section class="section2">
-        <h1>What to do in Nice ?</h1>
+        <h1>Discover Nice Today</h1>
+        <h4>Explore the latest happenings in Nice, France.</h4>
+
         <div class="parent-contenu-s2">
           <div>
-            <h2>Sub-title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto repellat tenetur cumque harum perferendis maiores quisquam iure quibusdam animi. Adipisci eaque dolores eos laboriosam placeat totam illo error aut.</p>
+            <h2>Explore the latest happenings in Nice, France.</h2>
+            <p>
+              Welcome to Nice, where the azure sea meets vibrant culture and
+              rich history. Explore our charming streets, stunning architecture,
+              and delightful cuisine that make this city a true gem of the
+              French Riviera.
+            </p>
+            <p>
+              Nice is a vibrant city brimming with culture and beauty. From
+              stunning coastal views to rich historical sites, there's something
+              for everyone. Immerse yourself in the local charm and experience
+              the unique flavours of this Mediterranean gem.
+            </p>
           </div>
-          <img src="./images/rue.jpg" alt="Une rue">
+          <img src="./images/nice3.jpg" alt="Une rue" />
         </div>
-
       </section>
 
-
-      <!-- SECTION 3 : NEWS -->
+      <!-- SECTION 3 -->
       <section class="section3">
         <h1>News</h1>
+        <h4>Last events in Nice</h4>
         <div class="parent-cards">
-
           <div class="card">
-            <img src="./images/rue.jpg" alt="rue"/>
+            <img src="./images/nice5.jpg" alt="rue" />
             <h3>Article title</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             <a href="#">Read more</a>
           </div>
 
           <div class="card">
-            <img src="./images/rue.jpg" alt="rue"/>
+            <img src="./images/rue.jpg" alt="rue" />
             <h3>Article title</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             <a href="#">Read more</a>
           </div>
 
           <div class="card">
-            <img src="./images/rue.jpg" alt="rue"/>
+            <img src="./images/nice.jpg" alt="rue" />
             <h3>Article title</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             <a href="#">Read more</a>
@@ -87,13 +100,23 @@
       <!-- SECTION 4 : CHARTS EXAMPLE -->
       <section class="section4">
         <h1>Charts example</h1>
-          <div class="parent-chart">
-            <canvas id="myChart"></canvas>
-          </div>
+        <div class="parent-chart">
+          <canvas id="myChart"></canvas>
+        </div>
       </section>
     </main>
     <footer class="box-center" id="monFooter">
       <p>Site created by Aurélie PREAUD</p>
+      <nav>
+        <ul class="menu">
+          <li><a href="#monFooter">Go to Footer</a></li>
+          <li><a href="#">Living Nice</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">What to do in Nice ?</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <input type="text" name="search" id="" />
+      </nav>
     </footer>
   </body>
 </html>

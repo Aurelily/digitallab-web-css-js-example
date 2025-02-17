@@ -4,20 +4,20 @@
 }
 
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", serif;
 }
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background-color: #5ec8d8;
-  height: 150px;
+  background-color: #335788;
+  height: 30px;
+  padding: 20px;
 }
 
-nav {
-  background-color: blue;
-  /* height: 80px; */
+header img {
+  width: 20%;
 }
 
 a {
@@ -26,15 +26,27 @@ a {
 
 h1,
 h2,
-h3 {
-  margin-bottom: 30px;
+h3,
+h4 {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: black;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.3em;
 }
 
 .section1,
 .section2,
 .section3,
 .section4 {
-  padding: 20px;
+  padding: 50px;
 }
 
 .box-center {
@@ -45,16 +57,11 @@ h3 {
 
 .menu {
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
 .menu li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   list-style-type: none;
-  /* background-color: yellow; */
   margin: 10px;
   padding: 10px;
 }
@@ -63,7 +70,7 @@ h3 {
   color: white;
 }
 .menu li a:hover {
-  color: aqua;
+  color: #92b9ef;
 }
 
 /* SECTION 1 HERO */
@@ -71,59 +78,62 @@ h3 {
 
 .section1 {
   position: relative;
-  background-color: rgb(216, 255, 75);
   height: 500px;
-  background-image: url("./images/nice.jpg");
+  background-image: url("./images/nice-night.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
 }
 
-.slogan {
+.cta {
   position: absolute;
   top: 200px;
   left: 170px;
-  font-family: "Playball", cursive;
-  font-size: 50px;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.slogan {
+  font-size: 2.5em;
   color: white;
+  margin-bottom: 20px;
 }
 
 .bouton {
-  position: absolute;
-  top: 250px;
-  left: 170px;
   background-color: blue;
   color: white;
-  width: 350px;
-  height: 80px;
+  width: 200px;
+  height: 5%;
   font-weight: bold;
   padding: 10px;
   border-radius: 0 0 50px 0;
 }
 .bouton:hover {
-
   background-color: red;
-
-
 }
 
-/* SECTION 2 : Que faire à Nice */
+/* SECTION 2 */
 /* --------------------------------------------- */
 .section2 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #86b7d6;
-  height: 500px;
+  background-color: #92b9ef;
 }
 
 .section2 img {
-  width: 500px;
-  border: 5px solid black;
+  width: 50%;
+  border: 2px solid white;
+}
+
+.section2 p {
+  margin-bottom: 5%;
 }
 
 .parent-contenu-s2 {
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -137,12 +147,12 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(207, 207, 207);
+  background-color: #d0def3;
 }
 
 .card {
   width: 30%;
-  border: 1px dashed black;
+  border: 1px solid black;
   padding: 10px;
 }
 .card img {
@@ -170,7 +180,7 @@ h3 {
   background-color: #ffffff;
 }
 
-.parent-chart{
+.parent-chart {
   width: 50%;
 }
 /* FOOTER*/
